@@ -38,4 +38,4 @@
 ## 📌 Dificuldades Encontradas
 
 * Infraestrutura
-    * Tive dificuldades na parte do workflow para fazer o deploy automatizado entre GitHub e Azure, onde nao consegui fazer o GitHub autenticar o Login na Azure.
+    * Tive dificuldades na parte do workflow para fazer o deploy automatizado entre GitHub e Azure, onde não consegui fazer o GitHub autenticar o Login na Azure.
