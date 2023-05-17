@@ -6,7 +6,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 namespace Blog.Migrations
 {
     /// <inheritdoc />
-    public partial class CreateDatabase : Migration
+    public partial class v1 : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
@@ -81,8 +81,8 @@ namespace Blog.Migrations
                     Summary = table.Column<string>(type: "VARCHAR(1000)", maxLength: 1000, nullable: false),
                     Body = table.Column<string>(type: "TEXT", nullable: false),
                     Slug = table.Column<string>(type: "VARCHAR(80)", maxLength: 80, nullable: false),
-                    CreateDate = table.Column<DateTime>(type: "SMALLDATETIME", maxLength: 60, nullable: false, defaultValue: new DateTime(2023, 4, 14, 17, 31, 39, 785, DateTimeKind.Utc).AddTicks(3158)),
-                    LastUpdateDate = table.Column<DateTime>(type: "SMALLDATETIME", maxLength: 60, nullable: false, defaultValue: new DateTime(2023, 4, 14, 17, 31, 39, 785, DateTimeKind.Utc).AddTicks(3456)),
+                    CreateDate = table.Column<DateTime>(type: "SMALLDATETIME", maxLength: 60, nullable: false, defaultValue: new DateTime(2023, 5, 17, 17, 9, 2, 483, DateTimeKind.Utc).AddTicks(2227)),
+                    LastUpdateDate = table.Column<DateTime>(type: "SMALLDATETIME", maxLength: 60, nullable: false, defaultValue: new DateTime(2023, 5, 17, 17, 9, 2, 483, DateTimeKind.Utc).AddTicks(2606)),
                     CategoryId = table.Column<int>(type: "int", nullable: false),
                     AuthorId = table.Column<int>(type: "int", nullable: false)
                 },
